@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		3E4CA1771FA85A2B001AEC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CA1761FA85A2B001AEC59 /* AppDelegate.swift */; };
-		3E4CA1791FA85A2B001AEC59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CA1781FA85A2B001AEC59 /* ViewController.swift */; };
 		3E4CA17C1FA85A2B001AEC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4CA17A1FA85A2B001AEC59 /* Main.storyboard */; };
 		3E4CA17E1FA85A2B001AEC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4CA17D1FA85A2B001AEC59 /* Assets.xcassets */; };
 		3E4CA1811FA85A2B001AEC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4CA17F1FA85A2B001AEC59 /* LaunchScreen.storyboard */; };
+		3E4CA1891FA85AEE001AEC59 /* MosaicListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CA1881FA85AEE001AEC59 /* MosaicListTableViewController.swift */; };
+		3E4CA18B1FA85C14001AEC59 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CA18A1FA85C14001AEC59 /* QRCodeReaderViewController.swift */; };
+		3E4CA18E1FA85C28001AEC59 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4CA18D1FA85C28001AEC59 /* AVFoundation.framework */; };
+		3ECEAAE21FA98A39007DFE27 /* OwnedMosaic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECEAAE11FA98A39007DFE27 /* OwnedMosaic.swift */; };
+		3ECEAAE41FA998AA007DFE27 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECEAAE31FA998AA007DFE27 /* APIKit.framework */; };
+		3ECEAAE61FA998B4007DFE27 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECEAAE51FA998B4007DFE27 /* Result.framework */; };
+		3ECEAAE91FA999C4007DFE27 /* NISRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECEAAE81FA999C4007DFE27 /* NISRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E4CA1731FA85A2B001AEC59 /* MosaicReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosaicReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4CA1761FA85A2B001AEC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E4CA1781FA85A2B001AEC59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E4CA17B1FA85A2B001AEC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E4CA17D1FA85A2B001AEC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E4CA1801FA85A2B001AEC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E4CA1821FA85A2B001AEC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4CA1881FA85AEE001AEC59 /* MosaicListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicListTableViewController.swift; sourceTree = "<group>"; };
+		3E4CA18A1FA85C14001AEC59 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		3E4CA18D1FA85C28001AEC59 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3ECEAAE11FA98A39007DFE27 /* OwnedMosaic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnedMosaic.swift; sourceTree = "<group>"; };
+		3ECEAAE31FA998AA007DFE27 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		3ECEAAE51FA998B4007DFE27 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		3ECEAAE81FA999C4007DFE27 /* NISRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NISRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ECEAAE61FA998B4007DFE27 /* Result.framework in Frameworks */,
+				3ECEAAE41FA998AA007DFE27 /* APIKit.framework in Frameworks */,
+				3E4CA18E1FA85C28001AEC59 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,7 @@
 			children = (
 				3E4CA1751FA85A2B001AEC59 /* MosaicReader */,
 				3E4CA1741FA85A2B001AEC59 /* Products */,
+				3E4CA18C1FA85C28001AEC59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +71,26 @@
 			isa = PBXGroup;
 			children = (
 				3E4CA1761FA85A2B001AEC59 /* AppDelegate.swift */,
-				3E4CA1781FA85A2B001AEC59 /* ViewController.swift */,
+				3E4CA1881FA85AEE001AEC59 /* MosaicListTableViewController.swift */,
+				3E4CA18A1FA85C14001AEC59 /* QRCodeReaderViewController.swift */,
+				3ECEAAE11FA98A39007DFE27 /* OwnedMosaic.swift */,
+				3ECEAAE81FA999C4007DFE27 /* NISRequest.swift */,
 				3E4CA17A1FA85A2B001AEC59 /* Main.storyboard */,
 				3E4CA17D1FA85A2B001AEC59 /* Assets.xcassets */,
 				3E4CA17F1FA85A2B001AEC59 /* LaunchScreen.storyboard */,
 				3E4CA1821FA85A2B001AEC59 /* Info.plist */,
 			);
 			path = MosaicReader;
+			sourceTree = "<group>";
+		};
+		3E4CA18C1FA85C28001AEC59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ECEAAE51FA998B4007DFE27 /* Result.framework */,
+				3ECEAAE31FA998AA007DFE27 /* APIKit.framework */,
+				3E4CA18D1FA85C28001AEC59 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +103,7 @@
 				3E4CA16F1FA85A2B001AEC59 /* Sources */,
 				3E4CA1701FA85A2B001AEC59 /* Frameworks */,
 				3E4CA1711FA85A2B001AEC59 /* Resources */,
+				3ECEAAE71FA998D1007DFE27 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -131,13 +161,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3ECEAAE71FA998D1007DFE27 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E4CA16F1FA85A2B001AEC59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E4CA1791FA85A2B001AEC59 /* ViewController.swift in Sources */,
+				3E4CA18B1FA85C14001AEC59 /* QRCodeReaderViewController.swift in Sources */,
+				3ECEAAE21FA98A39007DFE27 /* OwnedMosaic.swift in Sources */,
+				3E4CA1891FA85AEE001AEC59 /* MosaicListTableViewController.swift in Sources */,
 				3E4CA1771FA85A2B001AEC59 /* AppDelegate.swift in Sources */,
+				3ECEAAE91FA999C4007DFE27 /* NISRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,12 +327,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 46946JQQ95;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MosaicReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.openapostille.MosaicReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -291,12 +347,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 46946JQQ95;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MosaicReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.openapostille.MosaicReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
